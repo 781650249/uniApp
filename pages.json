@@ -1,0 +1,210 @@
+{
+	"pages": [{
+			"path": "pages/community-serv/communityServ",
+			"style": {
+				// "navigationBarTitleText": "社区服务",
+				"navigationStyle": "custom",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/house/houseDetail",
+			"style": {
+				"navigationBarTitleText": "详细信息",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/resident-audit/auditDetail",
+			"style": {
+				"navigationBarTitleText": "住户详情",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/community-serv/areaList",
+			"style": {
+				"navigationBarTitleText": "选择小区",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/credit-info/creditRelation",
+			"style": {
+				"navigationBarTitleText": "关系图谱",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/user-center/user-site",
+			"style": {
+				"navigationBarTitleText": "设置中心",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/credit-info/creditInfo",
+			"style": {
+				"navigationBarTitleText": "实人身份信息",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/credit-info/creditBasic",
+			"style": {
+				"navigationBarTitleText": "实人身份信息",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/credit-info/creditDetail",
+			"style": {
+				"navigationBarTitleText": "住户信息",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/house/house",
+			"style": {
+				"navigationBarTitleText": "实有房屋",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/user-center/userCenter",
+			"style": {
+				"navigationBarTitleText": "我的信息",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/resident-audit/residentAudit",
+			"style": {
+				"navigationBarTitleText": "住户审核",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/event-center/eventCenter",
+			"style": {
+				"navigationBarTitleText": "事件中心",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/event-center/eventDetail",
+			"style": {
+				"navigationBarTitleText": "事件详情",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/video-look/videoLook",
+			"style": {
+				"navigationBarTitleText": "视频浏览",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+				// "app-plus": {
+				// 	"scrollIndicator": "all",
+				// 	"titleNView": {
+				// 		"type": "float",
+				// 		"backgroundColor": "rgba(192,192,192,0)"
+				// 	}
+				// }
+			}
+		},
+
+
+
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/login/register",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/resident-audit/creditPhoto",
+			"style": {
+				"navigationBarTitleText": "身份证信息",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/resident-audit/facePhoto",
+			"style": {
+				"navigationBarTitleText": "人脸信息",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/resident-audit/isAudit",
+			"style": {
+				"navigationBarTitleText": "住户审核",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-ui基础项目"
+			}
+		}
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "社区服务",
+		"navigationBarBackgroundColor": "#007AFF",
+		"backgroundColor": "#FFFFFF"
+
+
+
+
+	},
+	"tabBar": {
+		"color": "#B5B5B5",
+		"selectedColor": "#1296db",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"pagePath": "pages/community-serv/communityServ",
+				"text": "社区服务",
+				"iconPath": "static/tabBar/tab-one.png",
+				"selectedIconPath": "static/tabBar/tab-one-fill.png"
+			},
+			{
+				"pagePath": "pages/user-center/userCenter",
+				"text": "我的信息",
+				"iconPath": "static/tabBar/tab-one.png",
+				"selectedIconPath": "static/tabBar/tab-two-fill.png"
+			}
+		]
+	}
+}
